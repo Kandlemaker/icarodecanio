@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "icarodecanio.com",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -23,7 +23,7 @@
         "display7Size": 1.2,
         "display4Font": "Jost",
         "display4Size": 1.1,
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
@@ -44,7 +44,7 @@
     ],
     "uniqCompNum": 45,
     "versionPublish": "5.0.29",
-    "imageResize": false,
+    "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": false,
     "mbrsiteDomain": "vxeiv2ju4x",
