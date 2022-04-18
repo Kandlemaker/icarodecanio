@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+html,
+.rodape,
+.cabecalho,
+.textos {
+    font-size: 100%;
+    background: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 32px;
+}
+
+.cabecalho-imagem {
+    height: 40px;
+    margin-right: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Jost', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo {
+    background-image: url(assets/images/sunrise-bg.jpg);
+    background-size: cover;
+    border-top: 0.4px solid #FFFFFF;
+    margin-bottom: 48px;
+    width: 100wv;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    margin-top: 350px;
+}
+
+.conteudo-principal-escrito-titulo {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo-principal-escrito-botao {
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(31, 31, 31);
+    width: 110px;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0), inset 0px 2px 4px rgb(83, 83, 83);
+    border-radius: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.primeiro-texto-titulo {
+    margin-top: 100px;
+}
+
+.primeiro-texto-resposta,
+.segundo-texto-resposta,
+.terceiro-texto-resposta {
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(170, 170, 170);
+}
+
+.primeiro-texto-titulo,
+.segundo-texto-titulo,
+.terceiro-texto-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.text-primary {
+    color: rgb(75, 162, 255)
+}
+
+.rodape-botao {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 2px 4px rgb(83, 83, 83);
+    width: 110px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+
+/* AQUI COMEÇA A GALERIA */
+
+.galeria-nome {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    pointer-events: none;
+}
+
+.main {
+    background: radial-gradient(rgb(255, 255, 255) 16%, rgb(192, 192, 192) 84%);
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+}
+
+.img {
+    aspect-ratio: 20/15;
+    box-shadow: 0vw 2vw 2vw -1vw rgba(0, 0, 0, 0.849);
+    /*box-shadow: rgb(28, 31, 34) 0px 20px 30px -10px;*/
+    border-radius: 1.5vw;
+}
+
+.gallery {
+    display: grid;
+    width: 90%;
+    --gap: 6vh;
+    --num-cols: 3;
+    --row-height: 40vw;
+    box-sizing: border-box;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    gap: var(--gap);
+}
+
+.links-galeria,
+.main,
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-galeria {
+    padding: 5vh;
+}
+
+.links {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 1vh;
+    color: #ffffff;
+}
