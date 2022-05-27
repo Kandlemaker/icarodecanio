@@ -38,15 +38,13 @@ html,
 }
 
 .conteudo {
-    background-image: url(assets/images/sunrisebg.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgb(152, 152, 152), rgb(0, 0, 0);
     border-top: 0.4px solid #FFFFFF;
     margin-bottom: 48px;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-attachment: fixed;
 }
 
 .conteudo-principal {
